@@ -1,0 +1,21 @@
+<script type="text/javascript">
+
+    const mealtime = prompt("What mealtime is it? (1 for breakfast, 2 for lunch, 3 for dinner)");
+    let message;
+    
+    switch (mealtime) {
+      case "1":
+        message = "I'm having breakfast.";
+        break;
+      case "2":
+        message = "I'm having lunch.";
+        break;
+      case "3":
+        message = "I'm having dinner.";
+        break;
+      default:
+        message = "I'm not sure what time it is. Please enter '1' for breakfast, '2' for lunch, or '3' for dinner.";
+    }
+    
+    document.write(message);
+</script>

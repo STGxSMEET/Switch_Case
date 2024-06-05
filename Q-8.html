@@ -1,0 +1,59 @@
+<script type="text/javascript">
+
+    let operator = prompt("Enter the name of your mobile operator (Airtel, Jio, Vodafone):");
+const plan = prompt("Enter the plan you want to recharge (1 for 100, 2 for 200, 3 for 300):");
+let message;
+
+switch (operator) {
+  case "Airtel":
+    switch (plan) {
+      case "1":
+        message = "You have recharged your Airtel number with a 100 plan.";
+        break;
+      case "2":
+        message = "You have recharged your Airtel number with a 200 plan.";
+        break;
+      case "3":
+        message = "You have recharged your Airtel number with a 300 plan.";
+        break;
+      default:
+        message = "Invalid plan. Please enter '1' for 100, '2' for 200, or '3' for 300.";
+    }
+    break;
+  case "Jio":
+    switch (plan) {
+      case "1":
+        message = "You have recharged your Jio number with a 100 plan.";
+        break;
+      case "2":
+        message = "You have recharged your Jio number with a 200 plan.";
+        break;
+      case "3":
+        message = "You have recharged your Jio number with a 300 plan.";
+        break;
+      default:
+        message = "Invalid plan. Please enter '1' for 100, '2' for 200, or '3' for 300.";
+    }
+    break;
+  case "Vodafone":
+    switch (plan) {
+      case "1":
+        message = "You have recharged your Vodafone number with a 100 plan.";
+        break;
+      case "2":
+        message = "You have recharged your Vodafone number with a 200 plan.";
+        break;
+      case "3":
+        message = "You have recharged your Vodafone number with a 300 plan.";
+        break;
+      default:
+        message = "Invalid plan. Please enter '1' for 100, '2' for 200, or '3' for 300.";
+    }
+    break;
+  default:
+    message = "Invalid operator. Please enter 'Airtel', 'Jio', or 'Vodafone'.";
+}
+
+document.write(message);
+
+</script>

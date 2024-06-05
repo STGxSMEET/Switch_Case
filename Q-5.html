@@ -1,0 +1,28 @@
+<script type="text/javascript">
+
+    let wheather = prompt("What's the weather like today? (sunny, rainy, cloudy, snowy, windy)");
+let response;
+
+switch (wheather) {
+  case "sunny":
+    response = " Don't forget your sunscreen.";
+    break;
+  case "rainy":
+    response = "Grab your umbrella";
+    break;
+  case "cloudy":
+    response = "It's going to be cloudy";
+    break;
+  case "snowy":
+    response = "Carry Your Jacket it's going to be cold";
+    break;
+  case "windy":
+    response = "Hold onto your hat, it's going to be a blustery day.";
+    break;
+  default:
+    response = "I'm not sure what the weather is like today.";
+}
+
+document.write(response);
+
+</script>

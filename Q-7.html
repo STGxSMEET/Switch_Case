@@ -1,0 +1,18 @@
+<script type="text/javascript">
+
+    let number = prompt("Enter a number between 1 and 10:");
+let category;
+
+if (number >= 1 && number <= 3) {
+  category = "low";
+} else if (number >= 4 && number <= 7) {
+  category = "medium";
+} else if (number >= 8 && number <= 10) {
+  category = "high";
+} else {
+  category = "invalid";
+}
+
+document.write(`The number ${number} is in the ${category} category.`);
+
+</script>

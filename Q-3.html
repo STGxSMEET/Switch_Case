@@ -1,0 +1,26 @@
+<script>
+    
+    
+    function trafficLight(color) {
+        switch (color) {
+          case "red":
+            console.log("Stop!");
+            document.write("STOP!");
+            break;
+          case "yellow":
+            console.log("Get ready!");
+            document.write("GET READY!")
+            break;
+          case "green":
+            console.log("Go!");
+            document.write("GO!");
+            break;
+          default:
+            console.log("Invalid color. Please enter red, yellow, or green.");
+        }
+      }
+      
+     let userInput = prompt("Enter the color of the traffic light (red, yellow, or green):");
+      trafficLight(userInput);
+
+</script>

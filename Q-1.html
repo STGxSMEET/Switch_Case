@@ -1,0 +1,20 @@
+<script>
+
+    let marks = prompt('Enter your marks:');
+switch (true) {
+  case (marks >= 90 && marks <= 100):
+    document.write("<h1>A Grade</h1>");
+    break;
+  case (marks >= 80 && marks < 90):
+    document.write("<h1>B Grade</h1>")
+    break;
+  case (marks >= 70 && marks < 80):
+    document.write("<h1>C Grade</h1>")
+    break;
+  case (marks >= 60 && marks < 70):
+    document.write("<h1>D Grade</h1>");
+    break;
+  default:
+    document.write("<h1>FAIL</h1>");
+}
+</script>
